@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+html {
+font-family: 'Lato', sans-serif;
+}
+* {
+    margin: 0;
+}
+.center {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 75px;
+    background-color: #222222;
+}
+.header_nav {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-left_nav {
+    display: flex;
+    gap: 41px;
+    
+}
+.header-right_nav {
+    display: flex;
+    gap: 30px;
+}
+.intro {
+    background-color: #F1E4E6;;
+}
+.intro-section {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 64px;
+
+}
+.intro-txt_1 {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    border-left-style:  solid;
+    border-left-width: 12px;
+    border-left-color: #F16D7F;
+    padding-left: 17px;
+}
+.intro-txt_2 {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+}
+.intro-txt_3{
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+}
+.intro-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17px;
+    line-height: 44px;
+}
+.orders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 65px;   
+    gap: 30px;
+}
+.item {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 260px;
+}
+.long-item {
+    grid-column: span 3;
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(../images/offers_accesories.png) no-repeat;
+    height: 180px;
+}
+.item_1 {
+    /* background: ;  */
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(../images/offers_women.png) no-repeat;
+}
+.item_2 {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(../images/offers_men.png) no-repeat; 
+}
+.item_3 {
+    background: linear-gradient(rgba(33, 22, 22, 0.70), rgba(33, 22, 22, 0.70)), url(../images/offers_kids.png) no-repeat; 
+}
+
+.orders-text-white {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.orders-text-pink {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+}
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.products-top {
+    text-align: center;
+}
+.products-h3 {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 400;
+}
+.products-text {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
+.products-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 48px;
+}
+.products-cards-item {
+    background-color: #F8F8F8;
+}
+.products-cards-item-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    gap: 16px;
+    text-align: start;
+}
+.products-h4 {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+}
+.products-cards-item-text {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+}
+.products-cards-item-price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.products-button {
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FFF;
+    border-color: #FF6A6A;
+    padding-top: 15px;
+    padding-left: 39px;
+    padding-bottom: 14px;
+    padding-right: 39px;
+    margin-top: 48px;
+    margin-bottom: 60px;
+}
